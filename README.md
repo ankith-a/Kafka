@@ -1,4 +1,4 @@
-# 🧩 Kafka Producer & Consumer Example — `gitnivedhj-topic`
+# 🧩 Kafka Producer & Consumer Example — `gitankith-a-topic`
 
 This repository demonstrates a simple **Apache Kafka** setup showing how messages are sent and received between a **Producer** and **Consumer** using command-line tools on **Windows**.
 
