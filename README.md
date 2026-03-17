@@ -1,4 +1,4 @@
-# 🧩 Kafka Producer & Consumer Example — `gitankith-a-topic`
+# 🧩 Kafka Producer & Consumer Example — `gitankith-topic`
 
 This repository demonstrates a simple **Apache Kafka** setup showing how messages are sent and received between a **Producer** and **Consumer** using command-line tools on **Windows**.
 
@@ -26,18 +26,18 @@ cd D:\kafka_2.13-3.8.0\bin\windows
 ### 3️⃣ Create a Topic
 ```powershell new tab
 cd D:\kafka_2.13-3.8.0\bin\windows
-.\kafka-topics.bat --create --topic gitnivedhj-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
+.\kafka-topics.bat --create --topic gitankith-topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 
 ✅ Confirm topic creation:
 .\kafka-topics.bat --list --bootstrap-server localhost:9092
 ```
 ### 4️⃣ Start a Producer
 ```
-.\kafka-console-producer.bat --topic gitnivedhj-topic --bootstrap-server localhost:9092
+.\kafka-console-producer.bat --topic gitankith-topic --bootstrap-server localhost:9092
 ```
 ### 5️⃣ Start a Consumer (in a new PowerShell window)
 ```
-.\kafka-console-consumer.bat --topic gitnivedhj-topic --from-beginning --bootstrap-server localhost:9092
+.\kafka-console-consumer.bat --topic gitankith-topic --from-beginning --bootstrap-server localhost:9092
 
 ```
 Output Example
